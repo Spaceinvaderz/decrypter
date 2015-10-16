@@ -1,1 +1,0 @@
-web: cd decrypter && gunicorn decrypter.wsgi -b "0.0.0.0:$PORT" -w 3
